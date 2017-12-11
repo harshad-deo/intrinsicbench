@@ -11,7 +11,7 @@ object Exponent {
     var rangeLb = -10.0
     var rangeUb = 10.0
     var cnt = 1000000
-    val arr = RangeGenerator(rangeLb, rangeUb, cnt)
+    var arr = RangeGenerator(rangeLb, rangeUb, cnt)
   }
 
 }

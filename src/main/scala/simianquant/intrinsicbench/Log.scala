@@ -11,7 +11,7 @@ object Log {
     var rangeLb = 0.01
     var rangeUb = 10000
     var cnt = 1000000
-    val arr = RangeGenerator(rangeLb, rangeUb, cnt)
+    var arr = RangeGenerator(rangeLb, rangeUb, cnt)
   }
 
 }
