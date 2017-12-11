@@ -33,7 +33,7 @@ class Pow {
     while (i < barr.length) {
       var base = barr(i)
       var j = 0
-      while(j < parr.length){
+      while (j < parr.length) {
         var pow = parr(j)
         bh.consume(base)
         bh.consume(pow)
@@ -51,7 +51,7 @@ class Pow {
     while (i < barr.length) {
       var base = barr(i)
       var j = 0
-      while(j < parr.length){
+      while (j < parr.length) {
         var pow = parr(j)
         bh.consume(math.pow(base, pow))
         j += 1
