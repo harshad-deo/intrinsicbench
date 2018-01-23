@@ -3,6 +3,7 @@ lazy val root = project
   .settings(
     name := "intrinsic bench",
     organization := "com.simianquant",
-    version := "0.1"
+    version := "0.1",
+    scalaVersion := "2.12.4"
   )
   .enablePlugins(JmhPlugin)
